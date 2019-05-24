@@ -13,8 +13,13 @@ public class Casa {
 	
 	public void limpiarLaCasa(){
 		
-		String mensajito="Te hemos limpiado la casa, está desinfectada";
+		String mensajito = mensaje();
 		System.out.println(mensajito);
+	}
+
+	private String mensaje() {
+		String mensajito="Te hemos limpiado la casa, está desinfectada y nadie te ha robado";
+		return mensajito;
 	}
 	
 	
